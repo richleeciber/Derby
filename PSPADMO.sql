@@ -98,5 +98,6 @@ DELETE FROM SYSADM.PS_CBR_UPLOAD;
 DELETE FROM SYSADM.PS_IG_FILE_ATTDET;
 COMMIT;
 
+select * from sysadm.pskeydefn where indexid = '_' and recname = 'PSOPRDEFN' order by keyposn;
 
-
+SELECT * FROM SYSADM.PS_CBR_PHONE;

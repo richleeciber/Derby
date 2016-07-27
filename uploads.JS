@@ -120,7 +120,6 @@ refresh_binds = function() {
     $("button[id='FILE_ATTACH_WRK_ATTACHADD']").attr('onclick', $("input[id='FILE_ATTACH_WRK_ATTACHADD']").attr('onclick'));
     $("button[id='FILE_ATTACH_WRK_ATTACHADD']").on('click', function() {
         uploadType = $(this).attr('udtype');
-        console.log('click fired ' + uploadType);
     }); /*set upload type*/
 }
 </script>
